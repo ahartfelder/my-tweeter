@@ -1,9 +1,9 @@
-import './App.module.css';
+import styles from './App.module.css';
 import Index from './ui/pages/index';
 
 function App() {
 	return (
-		<div>
+		<div className={styles['app-container']}>
 			<Index />
 		</div>
 	);
